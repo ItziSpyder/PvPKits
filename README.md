@@ -4,6 +4,7 @@ Kit rooms with fully customizable kits for members! (like the one on west.uspvp.
 ------------------------------------------------------
 
 ## Commands
-Command | Permission | Description
---------|------------|------------
-/kitroom | pvpkits.commands.kitroom | Opens the kitroom by command
+Command                            | Permission               | Description
+-----------------------------------|--------------------------|------------
+/kitroom                           | pvpkits.commands.kitroom | Opens the kitroom
+/kitroom [`edit`\|`clear`\|`help`] | pvpkits.commands.kitroom | Manages the kitroom
