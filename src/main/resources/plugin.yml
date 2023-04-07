@@ -1,0 +1,42 @@
+name: PvPKits
+version: '${version}'
+main: io.github.itzispyder.pvpkits.PvPKits
+api-version: 1.17
+authors: [ ImproperIssues ]
+description: Load and save pvp kits easily!
+website: https://itzispyder.github.io/
+permissions:
+  pvpkits.commands.kitroom:
+    description: Access to /kitroom
+    default: op
+commands:
+  kitroom:
+    description: Manages the kit room
+    usage: /kitroom <action>
+    permission: pvpkits.commands.kitroom
+    aliases:
+      - kr
+  kit:
+    description: Manages player kits
+    usage: /kit <action> <index>
+    aliases:
+      - kits
+      - k
+      - k1
+      - k2
+      - k3
+      - k4
+      - k5
+      - k6
+      - k7
+      - k8
+      - k9
+      - kit1
+      - kit2
+      - kit3
+      - kit4
+      - kit5
+      - kit6
+      - kit7
+      - kit8
+      - kit9
