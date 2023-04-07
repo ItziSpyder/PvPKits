@@ -19,3 +19,12 @@ Kit rooms with fully customizable kits for members! (like the one on west.uspvp.
 | /kit7                                  | default                  | Opens your kit 7     | /k7                |
 | /kit8                                  | default                  | Opens your kit 8     | /k8                |
 | /kit9                                  | default                  | Opens your kit 9     | /k9                |
+
+## Features
+- [x] Personal kits
+- [X] Personal customization
+- [x] Customizable kit room for server owners
+- [x] Each player saves up to 9 kits
+- [x] Each player can clear their own inventory
+- [x] Easy-to-use command aliases
+- [x] `west.uspvp.org` inspired!
