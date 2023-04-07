@@ -5,5 +5,4 @@ public abstract class InventoryPresets {
     public static void init() {
 
     }
-
 }
