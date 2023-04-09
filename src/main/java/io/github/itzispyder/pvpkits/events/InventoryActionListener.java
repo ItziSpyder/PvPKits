@@ -19,15 +19,15 @@ public class InventoryActionListener implements Listener {
     @EventHandler
     public void onClick(InventoryClickEvent e) {
         final Player p = (Player) e.getWhoClicked();
-        final Inventory inv = e.getInventory();
+        final Inventory inv = e.getClickedInventory();
         final String title = e.getView().getTitle();
         final int slot = e.getSlot();
 
         try {
             final ItemStack item = e.getCurrentItem();
             final String d = ItemUtils.getDisplay(item);
-            if (inv.getType() == InventoryType.PLAYER) return;
             if (!title.contains(PvPKits.prefix)) return;
+            if (inv.getType() == InventoryType.PLAYER) return;
             e.setCancelled(true);
             if (ItemUtils.matchDisplay(item," ")) return;
 
